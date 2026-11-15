@@ -8,7 +8,7 @@ This is a mobile-friendly browser prototype, not a packaged iOS or Android appli
 
 ## Data
 
-`lineage.json` is the editable source roster. The same data is embedded in `index.html` to allow opening the app directly without a server. After changing the JSON, replace the contents of the HTML script element with id `roster` with the updated JSON.
+`lineage.json` is the editable source roster. The same data is embedded in `lineage.html` to allow opening the app directly without a server. After changing the JSON, replace the contents of the HTML script element with id `roster` with the updated JSON.
 
 Records follow the supplied names and sequence, with spacing and quotation punctuation normalized. Sequence does not imply official line numbers. The timeline connects chronological pledge-line records; no individual mentor relationships have been inferred. The 2004 line retains all 16 supplied members.
 
@@ -24,3 +24,7 @@ Records follow the supplied names and sequence, with spacing and quotation punct
 `events.html` is the second page, linked from the lineage navigation. Upcoming, past, and all views support event search. The seven Achievement Week events are transcribed from the supplied flyer. The 2026 year is inferred from its weekday/date pattern. The original is included as achievement-week.png.
 
 To add events, edit the JSON array in the script element with id `event-data`. Each event accepts `title`, `start` (an ISO timestamp including UTC offset), optional `end`, `timeZone` (default America/Chicago), `location`, `category`, `description`, `url`, `linkLabel`, and `timeUnspecified` (omit the displayed time when the flyer gives none). Start-only events move to the past at their start time; provide an end time to retain ongoing events in Upcoming.
+
+## Pages
+
+index.html is the home page; lineage.html preserves the pledge-line directory; events.html contains Fellowship and the Achievement Week schedule. Use the Home links to return to the landing page.
