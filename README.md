@@ -28,3 +28,5 @@ To add events, edit the JSON array in the script element with id `event-data`. E
 ## Pages
 
 index.html is the home page; lineage.html preserves the pledge-line directory; events.html contains Fellowship and the Achievement Week schedule. Use the Home links to return to the landing page.
+
+The Noble 33 is pinned first with 33 supplied names. No year or season was supplied. Asterisks are retained without assigning a meaning. Total roster: 20 lines, 165 member entries.
