@@ -21,6 +21,6 @@ Records follow the supplied names and sequence, with spacing and quotation punct
 
 ## Chapter events
 
-`events.html` is the second page, linked from the lineage navigation. Upcoming, past, and all views support event search. No event details have been supplied yet.
+`events.html` is the second page, linked from the lineage navigation. Upcoming, past, and all views support event search. The seven Achievement Week events are transcribed from the supplied flyer. The 2026 year is inferred from its weekday/date pattern. The original is included as achievement-week.png.
 
-To add events, edit the JSON array in the script element with id `event-data`. Each event accepts `title`, `start` (an ISO timestamp including UTC offset), optional `end`, `timeZone` (default America/Chicago), `location`, `category`, `description`, `url`, and `linkLabel`. Start-only events move to the past at their start time; provide an end time to retain ongoing events in Upcoming.
+To add events, edit the JSON array in the script element with id `event-data`. Each event accepts `title`, `start` (an ISO timestamp including UTC offset), optional `end`, `timeZone` (default America/Chicago), `location`, `category`, `description`, `url`, `linkLabel`, and `timeUnspecified` (omit the displayed time when the flyer gives none). Start-only events move to the past at their start time; provide an end time to retain ongoing events in Upcoming.
