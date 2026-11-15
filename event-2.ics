@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LKK Chapter//Event Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Founders Day Groove
+BEGIN:VEVENT
+UID:lkk-20261117T1700000600-2@coaudri.github.io
+DTSTAMP:20261115T180000Z
+SUMMARY:Founders Day Groove
+DTSTART:20261117T230000Z
+LOCATION:LKK Foundation House
+DESCRIPTION:Grillin’ and Groovin’. House opens at 5:00 p.m.\nSinging hy
+ mn at 7:11 p.m.\nBruhz Only.\nSet or confirm your alert in your calendar a
+ pp.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Founders Day Groove
+END:VALARM
+END:VEVENT
+END:VCALENDAR

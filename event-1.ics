@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LKK Chapter//Event Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Monday Night Football
+BEGIN:VEVENT
+UID:lkk-20261116T1800000600-1@coaudri.github.io
+DTSTAMP:20261115T180000Z
+SUMMARY:Monday Night Football
+DTSTART:20261117T000000Z
+LOCATION:Delta Tau
+DESCRIPTION:Chargers vs. Ravens. House opens at 6:00 p.m.\nBruhz Only.\nSet
+  or confirm your alert in your calendar app.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Monday Night Football
+END:VALARM
+END:VEVENT
+END:VCALENDAR

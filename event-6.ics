@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LKK Chapter//Event Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Support a Black Owned Business
+BEGIN:VEVENT
+UID:lkk-20261121T0000000600-6@coaudri.github.io
+DTSTAMP:20261115T180000Z
+SUMMARY:Support a Black Owned Business
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+LOCATION:Location not listed on flyer
+DESCRIPTION:Support a Black Owned Business. Time not listed on flyer.\nSet 
+ or confirm your alert in your calendar app.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Support a Black Owned Business
+END:VALARM
+END:VEVENT
+END:VCALENDAR

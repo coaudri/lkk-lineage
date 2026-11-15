@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//LKK Chapter//Event Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Day of Service
+BEGIN:VEVENT
+UID:lkk-20261119T2100000600-4@coaudri.github.io
+DTSTAMP:20261115T180000Z
+SUMMARY:Day of Service
+DTSTART:20261120T030000Z
+LOCATION:Don Carter’s · 9829 Airline Hwy.\, Baton Rouge\, LA 70816
+DESCRIPTION:Bowling at Don Carter’s. Bowling starts at 9:00 p.m.\nSet or 
+ confirm your alert in your calendar app.
+BEGIN:VALARM
+TRIGGER:-PT1H
+ACTION:DISPLAY
+DESCRIPTION:Day of Service
+END:VALARM
+END:VEVENT
+END:VCALENDAR
