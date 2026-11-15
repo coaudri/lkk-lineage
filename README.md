@@ -18,3 +18,9 @@ Records follow the supplied names and sequence, with spacing and quotation punct
 2. Add editable member biographies.
 3. Add member photographs with consent.
 4. Package the interface for iOS and Android once the prototype works as desired.
+
+## Chapter events
+
+`events.html` is the second page, linked from the lineage navigation. Upcoming, past, and all views support event search. No event details have been supplied yet.
+
+To add events, edit the JSON array in the script element with id `event-data`. Each event accepts `title`, `start` (an ISO timestamp including UTC offset), optional `end`, `timeZone` (default America/Chicago), `location`, `category`, `description`, `url`, and `linkLabel`. Start-only events move to the past at their start time; provide an end time to retain ongoing events in Upcoming.
