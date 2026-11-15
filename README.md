@@ -30,3 +30,7 @@ To add events, edit the JSON array in the script element with id `event-data`. E
 index.html is the home page; lineage.html preserves the pledge-line directory; events.html contains Fellowship and the Achievement Week schedule. Use the Home links to return to the landing page.
 
 The Noble 33 is pinned first with 33 supplied names. No year or season was supplied. Asterisks are retained without assigning a meaning. Total roster: 20 lines, 165 member entries.
+
+## History and mandated programs
+
+history.html provides a short attributed summary of https://www.lkkomegas.com/history. programs.html lists the 12 program areas on https://www.lkkomegas.com/mandated-programs with brief topic descriptions. Both link back to the official source. Existing lineage and event records are preserved. Shared section navigation links all five pages.
